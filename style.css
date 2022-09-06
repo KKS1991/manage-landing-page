@@ -279,19 +279,18 @@ p[data-width="wide"] {
 .primary-footer-wrapper {
     display: grid;
     gap: var(--size-700);
+    justify-items: center;
+    align-items: start;
     grid-template-areas: 
-        'form'
-        'nav'
-        'logo-social';
+        'social'
+        'nav'    
+        'form'        
+        'logo'
+        'copyright';
 }
 
-.primary-footer-logo-social {
-    grid-area: logo-social;
-
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    gap: var(--size-700);
+.primary-footer-logo {
+    grid-area: logo;
 }
 
 .primary-footer-nav {
@@ -302,12 +301,15 @@ p[data-width="wide"] {
     grid-area: form;
 
     display: grid;
-    align-content: space-between;
+    grid-template-columns: 2.5fr 0.5fr;
+    gap: 8px;
 }
 
-.primary-footer-form form {
-    display: flex;
-    gap: var(--size-200);
+.primary-footer-copyright {
+    grid-area: copyright;
+
+    margin: 0 auto;
+    opacity: 0.6;
 }
 
 input:where([type="text"], [type=email]) {
@@ -316,21 +318,16 @@ input:where([type="text"], [type=email]) {
     padding: var(--size-300) var(--size-400);
 }
 
-@media (min-width: 47em) {
+@media (min-width: 52em) {
     .primary-footer-wrapper {
-        grid-template-areas: 
-            "logo-social nav form";
-    }
-
-    .primary-footer-logo-social {
-        align-items: flex-start;
         justify-content: space-between;
+        grid-template-areas: 
+            'logo nav form'
+            'social nav copyright';
     }
-}
 
-@media(max-width: 47em) {
-    .primary-footer-wrapper > * {
-        margin-inline: auto;
+    .primary-footer-copyright {
+        text-align: right;
     }
 }
 
@@ -373,6 +370,7 @@ input:where([type="text"], [type=email]) {
     }
     .social-icon {
         width: var(--size-500);
+        max-width: revert;
     }
 }
 
@@ -471,7 +469,8 @@ input:where([type="text"], [type=email]) {
     }
 }
 
-/* slider */
+/* Carousel */
+
 
 .slider {
     display: flex;

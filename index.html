@@ -10,8 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css"/>
-  <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+  
 </head>
 
 <body>
@@ -98,12 +99,14 @@
 
     <section class="carousel | padding-block-900 text-center">
       <h2 class="fs-secondary-heading fw-bold">What they’ve said</h2>
+      <!-- Carousel here -->
       <ul class="slider">
         <li>1</li>
         <li>2</li>
         <li>3</li>
         <li>4</li>
       </ul>
+
       <button class="button">Get Started</button>
     </section>
 
@@ -124,41 +127,41 @@
   <footer class="primary-footer | bg-neutral-900 text-neutral-100 padding-block-700">
     <div class="container">
       <div class="primary-footer-wrapper">
-        <div class="primary-footer-logo-social">
-          <a href="#" aria-label="home">
-            <svg class="logo" width="146" height="24">
-              <use xlink:href="images/logo.svg#logo"></use>
-            </svg>           
-          </a>
+        
+        <a class="primary-footer-logo" href="#" aria-label="home">
+          <svg class="logo" width="146" height="24">
+            <use xlink:href="images/logo.svg#logo"></use>
+          </svg>           
+        </a>
 
-            <ul class="social-list" role="list" aria-label="Social links">
-              <li><a aria-label="facebook" href="#">
-                <svg class="social-icon">
-                  <use xlink:href="images/social-icons.svg#icon-facebook"></use>
-                </svg></a>
-              </li>
-              <li><a aria-label="youtube" href="#">
-                <svg class="social-icon">
-                  <use xlink:href="images/social-icons.svg#icon-youtube"></use>
-                </svg></a>
-              </li>
-              <li><a aria-label="twitter" href="#">
-                <svg class="social-icon">
-                  <use xlink:href="images/social-icons.svg#icon-twitter"></use>
-                </svg></a>
-              </li>
-              <li><a aria-label="pinterest" href="#">
-                <svg class="social-icon">
-                  <use xlink:href="images/social-icons.svg#icon-pinterest"></use>
-                </svg></a>
-              </li>
-              <li><a aria-label="instagram" href="#">
-                <svg class="social-icon">
-                  <use xlink:href="images/social-icons.svg#icon-instagram"></use>
-                </svg>
-              </a></li>
-            </ul>
-        </div>
+        <ul class="social-list" role="list" aria-label="Social links">
+          <li><a aria-label="facebook" href="#">
+            <svg class="social-icon">
+              <use xlink:href="images/social-icons.svg#icon-facebook"></use>
+            </svg></a>
+          </li>
+          <li><a aria-label="youtube" href="#">
+            <svg class="social-icon">
+              <use xlink:href="images/social-icons.svg#icon-youtube"></use>
+            </svg></a>
+          </li>
+          <li><a aria-label="twitter" href="#">
+            <svg class="social-icon">
+              <use xlink:href="images/social-icons.svg#icon-twitter"></use>
+            </svg></a>
+          </li>
+          <li><a aria-label="pinterest" href="#">
+            <svg class="social-icon">
+              <use xlink:href="images/social-icons.svg#icon-pinterest"></use>
+            </svg></a>
+          </li>
+          <li><a aria-label="instagram" href="#">
+            <svg class="social-icon">
+              <use xlink:href="images/social-icons.svg#icon-instagram"></use>
+            </svg>
+          </a></li>
+        </ul>
+        
         <div class="primary-footer-nav">
           <nav class="footer-nav">
             <ul class="flow" style="--flow-spacer: 1em" aria-label="footer" role="list">
@@ -172,18 +175,20 @@
             </ul>
           </nav>
         </div>
-          <div class="primary-footer-form">
-            <form action="">
-              <input type="email"> <button class="button" data-shadow="none">Go</button>
-            </form>
-            <p>Copyright 2020. All Rights Reserved</p>
-          </div>
-        </div>
+
+        <form class="primary-footer-form" action="">
+          <input type="email" placeholder="Your E-Mail here"> 
+          <button class="button" data-shadow="none">Go</button>
+        </form>
+        <p class="primary-footer-copyright">Copyright 2020. All Rights Reserved</p>
+
       </div>
     </div>
   </footer>
 
+  <!-- JS -->
   <script src="index.js"></script>
+  <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script>
 
 </body>
 </html>
