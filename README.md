@@ -35,7 +35,9 @@ It was necessary to use some properties that are just supported by Chrome-Browse
 ### Screenshot
 
 ![Desktop-Version](/images/ss_desktop.png)
+
 ![Tablet-Version](/images/ss_tablet.png)
+
 ![Mobile-Version](/images/ss_mobile.png)
 
 ### Links
