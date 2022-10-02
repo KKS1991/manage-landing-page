@@ -43,7 +43,8 @@ It was necessary to use some properties that are just supported by Chrome-Browse
 
 ### Links
 
-- Solution URL: [My Solution](https://kks1991.github.io/manage-landing-page/)
+- [My Solution - Forntendmentor](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5/hub/responsive-landing-page-html-css-js-flexbox-grid-and-a11yslider-U9dLKWZQOy)
+- [My Solution - Live](https://kks1991.github.io/manage-landing-page/)
 
 ## My process
 
@@ -70,4 +71,4 @@ In relation to JS I've learned that the order of the ressources are very importa
 
 ### Acknowledgments
 
-I want to thank Kevin Powell [https://www.kevinpowell.co/] for his amazing Tutorial to this frondendmentor-challange [https://www.youtube.com/watch?v=h3bTwCqX4ns&list=PL4-IK0AVhVjNDRHoXGort7sDWcna8cGPA].
+I want to thank [Kevin Powell](https://www.kevinpowell.co/) for his amazing [Tutorial](https://www.youtube.com/watch?v=h3bTwCqX4ns&list=PL4-IK0AVhVjNDRHoXGort7sDWcna8cGPA) to this frondendmentor-challange.
