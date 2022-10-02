@@ -14,6 +14,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -65,6 +66,6 @@ In relation to JS I've learned that the order of the ressources are very importa
 - Xing (https://www.xing.com/profile/Kevin_Schupp3)
 - Linkedin (https://www.linkedin.com/in/kevin-schupp-968a5a162/)
 
-- [Acknowledgments](#acknowledgments)
+### Acknowledgments
 
 I want to thank Kevin Powell [https://www.kevinpowell.co/] for his amazing Tutorial to this frondendmentor-challange [https://www.youtube.com/watch?v=h3bTwCqX4ns&list=PL4-IK0AVhVjNDRHoXGort7sDWcna8cGPA].
