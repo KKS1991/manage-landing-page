@@ -282,10 +282,10 @@ p[data-width="wide"] {
     gap: var(--size-700);
     justify-items: center;
     align-items: start;
-    grid-template-areas: 
-        'social'
-        'nav'    
-        'form'        
+    grid-template-areas:
+        'form' 
+        'nav'
+        'social'         
         'logo'
         'copyright';
 }
@@ -398,9 +398,16 @@ input:where([type="text"], [type=email]) {
         url("images/bg-tablet-pattern.svg"),
         url("images/bg-tablet-pattern.svg");
     background-repeat: no-repeat;
-    background-position: -15rem -5rem, 80rem -42rem;
+    background-position: -37rem -1rem, 80rem -42rem;
     opacity: 0.1;
 }
+
+@media(min-width: 47em) {
+    .cta::before {
+        background-position: 11rem -5rem, 70rem -41rem;
+    }
+}
+
 
 /*numbered items*/
 
