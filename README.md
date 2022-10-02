@@ -1,6 +1,7 @@
 # Frontend Mentor - Manage landing page
 
-This is a solution to the [Manage landing page coding challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5)
+This is a solution to the [Manage landing page coding challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5).
+
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
@@ -42,8 +43,7 @@ It was necessary to use some properties that are just supported by Chrome-Browse
 
 ### Links
 
-- Solution URL: []
-- Live Site URL: [https://kks1991.github.io/manage-landing-page/]
+- Solution URL: [My Solution](https://kks1991.github.io/manage-landing-page/)
 
 ## My process
 
